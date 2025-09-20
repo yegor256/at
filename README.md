@@ -153,9 +153,23 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.40] Don't be scared by long test classes — they are OK.
 
-[3.41]
+[3.41] ...
 
-...
+[3.42] ...
+
+[3.43] Kill long-running test on timeout.
+
+[3.44] Inline fixtures instead of keeping them in fixture files.
+
+[3.45] Don't keep large fixtures in static files, let tests generate them.
+
+[3.46] Create fixture objects that generate large fixtures in runtime.
+
+[3.47] ...
+
+[3.48] Code duplication in tests is the last problem to fix.
+
+[3.49] Extract test libraries.
 
 <hr>
 
