@@ -1,4 +1,4 @@
-<img src="https://www.yegor256.com/images/books/angry-tests/onion.svg" height="5em"/>
+<img src="https://www.yegor256.com/images/books/angry-tests/onion.svg" height="92px"/>
 
 The following principles may help you write better automated tests.
 They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.html) book.
