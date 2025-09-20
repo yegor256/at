@@ -85,6 +85,8 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.6] Invent a DSL and write test stories using it.
 
+...
+
 <hr>
 
 Feel free to contribute.
