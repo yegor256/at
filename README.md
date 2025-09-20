@@ -3,13 +3,13 @@
 The following principles may help you write better automated tests.
 They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.html) book.
 
-[2.1] A test must be shorter than a dozen of lines of code.
+[2.1] Keep every test shorter than a dozen lines.
 
-[2.2] You may `assert` only once per test.
+[2.2] `assert` only once per test.
 
-[2.3] You must `assert` in every test.
+[2.3] `assert` in every test.
 
-[2.4] Every test must finish with an `assert`.
+[2.4] Finish every test with an `assert`.
 
 [2.5] Don't use `assertDoesNotThrow`.
 
