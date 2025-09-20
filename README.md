@@ -3,7 +3,8 @@
 The following principles may help you write better automated tests.
 They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.html) book.
 
-A test must be shorter than a dozen of lines of code.
+[2.1] A test must be shorter than a dozen of lines of code.
 
+[2.2] You may `assert` only once per test.
 
 Feel free to contribute.
