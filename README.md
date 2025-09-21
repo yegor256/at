@@ -205,31 +205,44 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
   [eslint](https://github.com/eslint/eslint),
   [rust-clippy](https://github.com/rust-lang/rust-clippy),
   [checkstyle](https://github.com/checkstyle/checkstyle),
-  [pylint](https://github.com/pylint-dev/pylint)
+  [pylint](https://github.com/pylint-dev/pylint),
+  [ruff](https://github.com/astral-sh/ruff).
 
-[6.10] Use [Static Analysis] at build time.
+[6.10] Use [Static Analysis] at build time:
+  [clang-tidy](https://clang.llvm.org/extra/clang-tidy),
+  [spotbugs](https://github.com/spotbugs/spotbugs),
+  [infer](https://github.com/facebook/infer).
 
 [6.11] Collect source code metrics and fail when thresholds are exceeded.
 
-[6.12] Test SQL queries.
+[6.12] Test SQL queries:
+  [pgtap](https://github.com/theory/pgtap).
 
-[6.13] Detect slowest SQL queries.
+[6.13] Detect slowest SQL queries:
+  [dexter](https://github.com/ankane/dexter).
 
 [6.14] Use Sanitizers.
 
 [6.15] Use [Dynamic Analysis] tools.
 
-[6.16] Employ Clone Detection tools.
+[6.16] Employ Clone Detection tools:
+  [simian](https://simian.quandarypeak.com/).
 
-[6.17] Use In-Browser Testing.
+[6.17] Use In-Browser Testing:
+  [selenium](https://github.com/SeleniumHQ/selenium),
+  [playwright](https://github.com/microsoft/playwright).
 
-[6.18] Use Multi-Browser Testing.
+[6.18] Use Multi-Browser Testing:
+  [saucelabs](https://docs.saucelabs.com/secure-connections).
 
 [6.19] Use [Cross-Browser Testing].
 
 [6.20] Use [GUI Testing].
 
-[6.21] Use Cloud Code Analyzers.
+[6.21] Use Cloud Code Analyzers:
+  [SonarQube](https://www.sonarsource.com/products/sonarqube/),
+  [Snyk](https://snyk.io/),
+  [Codacy](https://www.codacy.com/).
 
 [6.22] Use Live Tests.
 
