@@ -129,7 +129,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.28] Don't use [PowerMock] or similar frameworks.
 
-[3.29] Don't instantiate objects or call their methods with default arguments.
+[3.29] In tests, don't instantiate objects or call their methods with default arguments.
 
 [3.30] Don't abbreviate; use `curl --silent` instead of `curl -s`.
 
