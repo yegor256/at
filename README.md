@@ -1,5 +1,7 @@
 <img src="https://www.yegor256.com/images/books/angry-tests/onion.svg" height="128px"/>
 
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/yegor256/at/blob/master/LICENSE.txt)
+
 The following principles may help you write better automated tests.
 They are excerpts from the [Angry Tests] book.
 To get a more detailed explanation you may want to read the book.
