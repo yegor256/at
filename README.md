@@ -69,8 +69,6 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.33] Every time you change the code, add more tests.
 
-## Advanced
-
 [3.1] Classify tests as "fast" (50ms each) and "deep" (integrating everything).
 
 [3.2] Make tests flaky and unstable, then expect bugs to be reported and fixed.
@@ -168,8 +166,6 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 [3.48] Code duplication in tests is the last problem to fix.
 
 [3.49] Extract test libraries.
-
-Feel free to contribute.
 
 [code-free]: https://www.yegor256.com/2015/05/07/ctors-must-be-code-free.html
 [fake objects]: https://www.yegor256.com/2014/09/23/built-in-fake-objects.html
