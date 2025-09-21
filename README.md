@@ -141,7 +141,8 @@ To get a more detailed explanation you may want to read the book.
 
 [3.32] Use decorating invariants to catch improper use of objects during testing.
 
-[3.33] Run tests in parallel threads.
+[3.33] Run tests in parallel threads:
+  [threads](https://github.com/yegor256/threads).
 
 [3.34] Every fast test must take less than 100 milliseconds.
 
