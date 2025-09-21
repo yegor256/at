@@ -149,9 +149,9 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.40] Don't be scared of long test classes — they are OK.
 
-[3.41] ...
+[3.41] Don't fix feature code in response to a failing flaky test.
 
-[3.42] ...
+[3.42] Use [maybeslow] or a similar library to diagnose long running tests.
 
 [3.43] Kill long-running tests on timeout.
 
@@ -175,3 +175,4 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 [one-statement]: https://www.yegor256.com/2017/05/17/single-statement-unit-tests.html
 [Hamcrest]: https://hamcrest.org/
 [ephemeral]: https://en.wikipedia.org/wiki/Ephemeral_port
+[maybeslow]: https://github.com/yegor256/maybeslow
