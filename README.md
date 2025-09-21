@@ -195,11 +195,17 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
   [jmeter](https://github.com/apache/jmeter),
   [locust](https://github.com/locustio/locust).
 
-[6.7] Use Performance Tests.
+[6.7] Use Performance Tests:
+  [jmh](https://github.com/openjdk/jmh).
 
-[6.8] Benchmark new vs. previous builds.
+[6.8] Benchmark new vs. previous builds:
+  [jmh-benchmark-action](https://github.com/volodya-lombrozo/jmh-benchmark-action).
 
-[6.9] Use Linters.
+[6.9] Use Linters:
+  [eslint](https://github.com/eslint/eslint),
+  [rust-clippy](https://github.com/rust-lang/rust-clippy),
+  [checkstyle](https://github.com/checkstyle/checkstyle),
+  [pylint](https://github.com/pylint-dev/pylint)
 
 [6.10] Use [Static Analysis] at build time.
 
