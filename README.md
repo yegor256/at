@@ -173,17 +173,27 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 ## Chapter 6. Fancy Tests
 
-[6.1] Test for grammar mistakes and typos.
+[6.1] Test for grammar mistakes and typos:
+  [languagetool](https://github.com/languagetool-org/languagetool).
+  [typos-action](https://github.com/marketplace/actions/typos-action).
 
-[6.2] Employ [Property Based Testing] tools.
+[6.2] Employ [Property Based Testing] tools:
+  [jqwik](https://github.com/jqwik-team/jqwik),
+  [quickcheck](https://github.com/nick8325/quickcheck).
 
-[6.3] Use [Fuzzing] tools.
+[6.3] Use [Fuzzing] tools:
+  [jqf](https://github.com/rohanpadhye/jqf),
+  [oss-fuzz](https://github.com/google/oss-fuzz),
+  [syzkaller](https://github.com/google/syzkaller).
 
-[6.4] Use [Mutation Testing].
+[6.4] Use [Mutation Testing]:
+  [pitest](https://github.com/hcoles/pitest).
 
 [6.5] Check files layout during the build.
 
-[6.6] Use Load Tests.
+[6.6] Use Load Tests:
+  [jmeter](https://github.com/apache/jmeter),
+  [locust](https://github.com/locustio/locust).
 
 [6.7] Use Performance Tests.
 
