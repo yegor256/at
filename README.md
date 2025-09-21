@@ -3,8 +3,6 @@
 The following principles may help you write better automated tests.
 They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.html) book.
 
-## Basics
-
 [2.1] Keep every test shorter than a dozen lines.
 
 [2.2] Assert only once per test.
@@ -19,7 +17,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.7] Use irregular input values, instead of `foo` or `hello, world`.
 
-[2.8] Use different inputs in every test, don't reuse.
+[2.8] Use different inputs in every test, don't reuse them.
 
 [2.9] Always write failure messages.
 
@@ -29,19 +27,19 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.12] Don't inline constants, assign them to variables first.
 
-[2.13] Don't go around object interfaces, never via Reflection.
+[2.13] Don't bypass object interfaces, especially not via Reflection.
 
 [2.14] Name tests as full English sentences, e.g. `buildsHtmlPage`.
 
 [2.15] Never write any comments inside or outside of test methods.
 
-[2.16] Don't assert on behavior not promised by object's contract.
+[2.16] Don't assert on behavior not promised by the object's contract.
 
 [2.17] ...
 
 [2.18] Don't test getters, setters, and similar primitive functionality.
 
-[2.19] Don't delete test, disable them instead.
+[2.19] Don't delete tests, disable them instead.
 
 [2.20] Never test private or protected object methods.
 
@@ -51,13 +49,13 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.23] ...
 
-[2.24] Don't assert on side-effects, like logs.
+[2.24] Don't assert on side effects, like logs.
 
 [2.25] Assert on all possible intermediate results.
 
 [2.26] Don't test constructors — they are [code-free] anyway.
 
-[2.27] Clean up in front of a test, not after it.
+[2.27] Clean up before a test, not after it.
 
 [2.28] Don't use mock frameworks, build [fake objects] instead.
 
@@ -67,15 +65,15 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.31] Use Hamcrest.
 
-[2.32] Don't be discouraged to write bad tests, they're better than nothing.
+[2.32] Don't be discouraged from writing bad tests, they're better than nothing.
 
 [2.33] Every time you change the code, add more tests.
 
 ## Advanced
 
-[3.1] Classify tests as "fast" (50ms per each) and "deep" (integrate all together).
+[3.1] Classify tests as "fast" (50ms each) and "deep" (integrating everything).
 
-[3.2] Make tests flaky and unstable, and expect bugs reported and fixed.
+[3.2] Make tests flaky and unstable, then expect bugs to be reported and fixed.
 
 [3.3] Create custom matchers and reuse them in assert statements.
 
@@ -83,15 +81,15 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.5] Tests must reproduce particular bugs, not successful usage scenarios.
 
-[3.6] Don't assert on non-important details, don't be pedantic for no reason.
+[3.6] Don't assert on unimportant details, don't be pedantic without reason.
 
 [3.7] Invent a DSL and write test stories using it.
 
 [3.8] Use randomizers to generate test data.
 
-[3.9] Don't help your tests, make the most inconvenient environment for them.
+[3.9] Don't help your tests; create the most inconvenient environment for them.
 
-[3.10] Don't keep temporary files next to the source code, use temporary directory.
+[3.10] Don't keep temporary files next to the source code, use a temporary directory.
 
 [3.11] Don't test abstract classes.
 
@@ -101,11 +99,11 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.14] Stop tests on timeout, don't let them run forever.
 
-[3.15] Don't sleep for an arbitrary amount of seconds, instead wait for an event.
+[3.15] Don't sleep for an arbitrary number of seconds, instead wait for an event.
 
 [3.16] When it's necessary to simulate hanging, sleep for a billion seconds.
 
-[3.17] Let different tests test the same part of feature code.
+[3.17] Let different tests test the same part of the feature code.
 
 [3.18] Test whether your objects are thread-safe.
 
@@ -113,17 +111,17 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.20] Use tags to classify tests.
 
-[3.21] Let your testing framework repeat some tests to increase the change to hit the bug.
+[3.21] Let your testing framework repeat some tests to increase the chance of hitting the bug.
 
 [3.22] In tests for thread-safety, utilize all available CPUs.
 
 [3.23] Run all tests with no Internet connection, they must pass.
 
-[3.24] Don't assert on details of errors.
+[3.24] Don't assert on the details of errors.
 
 [3.25] Keep the scope of try/catch as small as possible.
 
-[3.26] Strictly one test per one feature file.
+[3.26] Strictly one test per feature file.
 
 [3.27] Don't use `verify()` from a mock framework.
 
@@ -139,39 +137,37 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.33] Run tests in parallel threads.
 
-[3.34] Every fast test must spend less than 100 milliseconds.
+[3.34] Every fast test must take less than 100 milliseconds.
 
 [3.35] Don't mock the file system.
 
-[3.36] Make the place with temporary files accessible after the end of test suite.
+[3.36] Make the place with temporary files accessible after the end of the test suite.
 
-[3.37] Don't assert on the content of the logs generated by feature code during tests.
+[3.37] Don't assert on the content of logs generated by feature code during tests.
 
 [3.38] Use ephemeral TCP ports.
 
 [3.39] Don't use inheritance to reuse test tools.
 
-[3.40] Don't be scared by long test classes — they are OK.
+[3.40] Don't be scared of long test classes — they are OK.
 
 [3.41] ...
 
 [3.42] ...
 
-[3.43] Kill long-running test on timeout.
+[3.43] Kill long-running tests on timeout.
 
 [3.44] Inline fixtures instead of keeping them in fixture files.
 
 [3.45] Don't keep large fixtures in static files, let tests generate them.
 
-[3.46] Create fixture objects that generate large fixtures in runtime.
+[3.46] Create fixture objects that generate large fixtures at runtime.
 
 [3.47] ...
 
 [3.48] Code duplication in tests is the last problem to fix.
 
 [3.49] Extract test libraries.
-
-<hr>
 
 Feel free to contribute.
 
