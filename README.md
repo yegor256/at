@@ -23,11 +23,11 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.9] Always write failure messages.
 
-[2.10] Don't share any data between tests, never use `setUp` and `tearDown`.
+[2.10] Don't share any data between tests; never use `setUp` and `tearDown`.
 
 [2.11] Don't define constants (static literals) inside tests.
 
-[2.12] Don't inline constants, assign them to variables first.
+[2.12] Don't inline constants; assign them to variables first.
 
 [2.13] Don't bypass object interfaces, especially not via Reflection.
 
@@ -45,7 +45,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.20] Never test private or protected object methods.
 
-[2.21] Close resources after use, like files and sockets.
+[2.21] Close resources after use, such as files and sockets.
 
 [2.22] Don't write feature code that is only used in tests.
 
@@ -67,7 +67,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.31] Use [Hamcrest].
 
-[2.32] Don't be discouraged from writing bad tests, they're better than nothing.
+[2.32] Don't be discouraged from writing bad tests; they're better than nothing.
 
 [2.33] Every time you change the code, add more tests.
 
@@ -91,11 +91,11 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.9] Don't help your tests; create the most inconvenient environment for them.
 
-[3.10] Don't keep temporary files next to the source code, use a temporary directory.
+[3.10] Don't keep temporary files next to the source code; use a temporary directory.
 
 [3.11] Don't test abstract classes.
 
-[3.12] Don't let tests log anything, keep the log empty.
+[3.12] Don't let tests log anything; keep the log empty.
 
 [3.13] Parameterize tests.
 
@@ -161,7 +161,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.44] Inline fixtures instead of keeping them in fixture files.
 
-[3.45] Don't keep large fixtures in static files, let tests generate them.
+[3.45] Don't keep large fixtures in static files; let tests generate them.
 
 [3.46] Create fixture objects that generate large fixtures at runtime.
 
@@ -209,7 +209,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [6.10] Use [Static Analysis] at build time.
 
-[6.11] Collect source code metrics and fail on thresholds.
+[6.11] Collect source code metrics and fail when thresholds are exceeded.
 
 [6.12] Test SQL queries.
 
