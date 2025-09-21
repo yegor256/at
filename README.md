@@ -3,6 +3,8 @@
 The following principles may help you write better automated tests.
 They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.html) book.
 
+## Basics
+
 [2.1] Keep every test shorter than a dozen lines.
 
 [2.2] Assert only once per test.
@@ -68,6 +70,8 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 [2.32] Don't be discouraged from writing bad tests, they're better than nothing.
 
 [2.33] Every time you change the code, add more tests.
+
+## Advanced
 
 [3.1] Classify tests as "fast" (50ms each) and "deep" (integrating everything).
 
