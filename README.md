@@ -248,15 +248,20 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [6.23] Use Health Checks after deployment.
 
-[6.24] Generate tests at build time.
+[6.24] Generate tests at build time:
+  [randoop](https://github.com/randoop/randoop).
 
-[6.25] Create Security Tests.
+[6.25] Employ Security Tests:
+  [zaproxy](https://github.com/zaproxy/zaproxy).
 
-[6.26] Do License Compliance Testing.
+[6.26] Do License Compliance Testing:
+  [ort](https://github.com/oss-review-toolkit/ort),
+  [reuse-action](https://github.com/fsfe/reuse-action).
 
 [6.27] Detect redundant tests.
 
-[6.28] Validate architecture at build time.
+[6.28] Validate architecture at build time:
+  [archunit](https://github.com/TNG/ArchUnit).
 
 [code-free]: https://www.yegor256.com/2015/05/07/ctors-must-be-code-free.html
 [fake objects]: https://www.yegor256.com/2014/09/23/built-in-fake-objects.html
