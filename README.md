@@ -9,7 +9,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.3] Assert in every test.
 
-[2.4] Finish every test with an assert.
+[2.4] Finish every test with an assertion.
 
 [2.5] Don't use [assertDoesNotThrow].
 
@@ -29,13 +29,13 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.13] Don't bypass object interfaces, especially not via Reflection.
 
-[2.14] Name tests as full English sentences starting with a verb, e.g. `buildsHtmlPage`.
+[2.14] Name tests as full English sentences starting with a verb, e.g., `buildsHtmlPage`.
 
 [2.15] Never write any comments inside or outside of test methods.
 
 [2.16] Don't assert on behavior not promised by the object's contract.
 
-[2.17] ...
+[2.17] Assert on the most vulnerable pain points.
 
 [2.18] Don't test getters, setters, and similar primitive functionality.
 
@@ -47,7 +47,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.22] Don't write feature code that is only used in tests.
 
-[2.23] ...
+[2.23] Assert at every step while getting to the end of a use case.
 
 [2.24] Don't assert on side effects, like logs.
 
@@ -95,11 +95,11 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.13] Parameterize tests.
 
-[3.14] Stop tests on timeout, don't let them run forever.
+[3.14] Stop tests on timeout; don't let them run forever.
 
-[3.15] Don't sleep for an arbitrary number of seconds, instead wait for an event.
+[3.15] Don't sleep for an arbitrary number of seconds; instead, wait for an event.
 
-[3.16] When it's necessary to simulate hanging, sleep for a billion seconds.
+[3.16] When it's necessary to simulate a hang, sleep for a billion seconds.
 
 [3.17] Let different tests test the same part of the feature code.
 
@@ -113,7 +113,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.22] In tests for thread-safety, utilize all available CPUs.
 
-[3.23] Run all tests with no Internet connection, they must pass.
+[3.23] Run all tests with no Internet connection; they must pass.
 
 [3.24] Don't assert on the details of errors.
 
@@ -127,7 +127,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.29] Don't instantiate objects or call their methods with default arguments.
 
-[3.30] Don't abbreviate, use `curl --silent` instead of `curl -s`.
+[3.30] Don't abbreviate; use `curl --silent` instead of `curl -s`.
 
 [3.31] Don't let feature objects do the job of tests — verify inputs and state.
 
@@ -149,9 +149,9 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.40] Don't be scared of long test classes — they are OK.
 
-[3.41] Don't fix feature code in response to a failing flaky test.
+[3.41] Don't fix feature code in response to a flaky test failure.
 
-[3.42] Use [maybeslow] or a similar library to diagnose long running tests.
+[3.42] Use [maybeslow] or a similar library to diagnose long-running tests.
 
 [3.43] Kill long-running tests on timeout.
 
