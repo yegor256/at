@@ -175,7 +175,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [6.1] Test for grammar mistakes and typos.
 
-[6.2] Employ Proberty-Based-Testing tools.
+[6.2] Employ [Property Based Testing] tools.
 
 [6.3] Use [Fuzzing] tools.
 
@@ -240,3 +240,4 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 [maybeslow]: https://github.com/yegor256/maybeslow
 [Mutation Testing]: https://en.wikipedia.org/wiki/Mutation_testing
 [Fuzzng]: https://en.wikipedia.org/wiki/Fuzzing
+[Property Based Testing]: https://en.wikipedia.org/wiki/Property_testing
