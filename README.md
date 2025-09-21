@@ -3,7 +3,7 @@
 The following principles may help you write better automated tests.
 They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.html) book.
 
-## Basics
+## Chapter 2. Basics
 
 [2.1] Keep every test shorter than a dozen lines.
 
@@ -71,7 +71,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.33] Every time you change the code, add more tests.
 
-## Advanced
+## Chapter 3. Advanced
 
 [3.1] Classify tests as "fast" (50ms each) and "deep" (integrating everything).
 
@@ -170,6 +170,64 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 [3.48] Code duplication in tests is the last problem to fix.
 
 [3.49] Extract test libraries.
+
+## Chapter 6. Fancy Tests
+
+[6.1] Test for grammar mistakes and typos.
+
+[6.2] Employ Proberty-Based-Testing tools.
+
+[6.3] Use Fuzzing tools.
+
+[6.4] Use Mutation Testing.
+
+[6.5] Check files layout during the build.
+
+[6.6] Use Load Tests.
+
+[6.7] Use Performance Tests.
+
+[6.8] Benchmark new vs. previous builds.
+
+[6.9] Use Linters.
+
+[6.10] Use Static Analyzers.
+
+[6.11] Collect source code metrics and fail on thresholds.
+
+[6.12] Test SQL queries.
+
+[6.13] Detect slowest SQL queries.
+
+[6.14] Use Sanitizers.
+
+[6.15] Use Dynamic Analyzers.
+
+[6.16] Employ Clone Detection tools.
+
+[6.17] Use In-Browser Testing.
+
+[6.18] Use Multi-Browser Testing.
+
+[6.19] Use Cross-Browser Testing.
+
+[6.20] Use GUI Testing.
+
+[6.21] Use Cloud Code Analyzers.
+
+[6.22] Use Live Tests.
+
+[6.23] Use Health Checks after deployment.
+
+[6.24] Generate tests at build time.
+
+[6.25] Create Security Tests.
+
+[6.26] Do License Compliance Testing.
+
+[6.27] Detect redundant tests.
+
+[6.28] Validate architecture at build time.
 
 [code-free]: https://www.yegor256.com/2015/05/07/ctors-must-be-code-free.html
 [fake objects]: https://www.yegor256.com/2014/09/23/built-in-fake-objects.html
