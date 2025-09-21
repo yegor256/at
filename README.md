@@ -252,7 +252,7 @@ To get a more detailed explanation you may want to read the book.
   [Snyk](https://snyk.io/),
   [Codacy](https://www.codacy.com/).
 
-[6.22] Use Live Tests.
+[6.22] Create Live Tests that verify production-ready configurations.
 
 [6.23] Use Health Checks after deployment.
 
