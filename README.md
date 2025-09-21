@@ -161,7 +161,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.46] Create fixture objects that generate large fixtures at runtime.
 
-[3.47] ...
+[3.47] Keep reference fixtures as static files in the repository.
 
 [3.48] Code duplication in tests is the last problem to fix.
 
