@@ -129,7 +129,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.30] Don't abbreviate, use `curl --silent` instead of `curl -s`.
 
-[3.31] ...
+[3.31] Don't let feature objects do the job of tests — verify inputs and state.
 
 [3.32] Use decorating invariants to catch improper use of objects during testing.
 
