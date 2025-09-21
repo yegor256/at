@@ -191,7 +191,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [6.9] Use Linters.
 
-[6.10] Use Static Analyzers.
+[6.10] Use [Static Analysis] at build time.
 
 [6.11] Collect source code metrics and fail on thresholds.
 
@@ -239,5 +239,6 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 [ephemeral]: https://en.wikipedia.org/wiki/Ephemeral_port
 [maybeslow]: https://github.com/yegor256/maybeslow
 [Mutation Testing]: https://en.wikipedia.org/wiki/Mutation_testing
-[Fuzzng]: https://en.wikipedia.org/wiki/Fuzzing
+[Fuzzing]: https://en.wikipedia.org/wiki/Fuzzing
 [Property Based Testing]: https://en.wikipedia.org/wiki/Property_testing
+[Static Analysis]: https://en.wikipedia.org/wiki/Static_program_analysis
