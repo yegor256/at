@@ -107,7 +107,9 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.17] Let different tests test the same part of the feature code.
 
-[3.18] Test whether your objects are thread-safe.
+[3.18] Test whether your objects are [thread-safe]:
+  [in Java](https://www.yegor256.com/2018/03/27/how-to-test-thread-safety.html),
+  [in Ruby](https://www.yegor256.com/2018/11/06/ruby-threads.html).
 
 [3.19] Let tests retry when the behavior they are testing is flaky.
 
@@ -279,3 +281,4 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 [Dynamic Analysis]: https://en.wikipedia.org/wiki/Dynamic_program_analysis
 [Cross-Browser Testing]: https://en.wikipedia.org/wiki/Cross-browser_testing
 [GUI Testing]: https://en.wikipedia.org/wiki/Graphical_user_interface_testing
+[thread-safe]: https://en.wikipedia.org/wiki/Thread_safety
