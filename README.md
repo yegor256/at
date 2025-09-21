@@ -61,7 +61,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.29] Don't forgive incorrect behavior, disable the test instead.
 
-[2.30] Aim for one-statement tests.
+[2.30] Aim for [one-statement] tests.
 
 [2.31] Use Hamcrest.
 
@@ -176,3 +176,4 @@ Feel free to contribute.
 [PowerMock]: https://github.com/powermock/powermock
 [assertDoesNotThrow]: https://docs.junit.org/5.9.0/api/org.junit.jupiter.api/org/junit/jupiter/api/Assertions.html#assertDoesNotThrow(org.junit.jupiter.api.function.Executable)
 [fail]: https://docs.junit.org/5.9.0/api/org.junit.jupiter.api/org/junit/jupiter/api/Assertions.html#fail()
+[one-statement]: https://www.yegor256.com/2017/05/17/single-statement-unit-tests.html
