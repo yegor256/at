@@ -9,27 +9,27 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.3] Assert in every test.
 
-[2.4] Finish every test with an `assert`.
+[2.4] Finish every test with an assert.
 
-[2.5] Don't use `assertDoesNotThrow`.
+[2.5] Don't use [assertDoesNotThrow].
 
-[2.6] Don't fail explicitly using `fail()`.
+[2.6] Don't fail explicitly using [fail].
 
-[2.7] Use irregular input values, instead of `foo` or `hello, world`.
+[2.7] Use irregular input values, instead of `"foo"`.
 
 [2.8] Use different inputs in every test, don't reuse them.
 
 [2.9] Always write failure messages.
 
-[2.10] Don't share any data between tests.
+[2.10] Don't share any data between tests, never use `setUp` and `tearDown`.
 
-[2.11] Don't use any static literals inside tests.
+[2.11] Don't define constants (static literals) inside tests.
 
 [2.12] Don't inline constants, assign them to variables first.
 
 [2.13] Don't bypass object interfaces, especially not via Reflection.
 
-[2.14] Name tests as full English sentences, e.g. `buildsHtmlPage`.
+[2.14] Name tests as full English sentences starting with a verb, e.g. `buildsHtmlPage`.
 
 [2.15] Never write any comments inside or outside of test methods.
 
@@ -174,3 +174,5 @@ Feel free to contribute.
 [code-free]: https://www.yegor256.com/2015/05/07/ctors-must-be-code-free.html
 [fake objects]: https://www.yegor256.com/2014/09/23/built-in-fake-objects.html
 [PowerMock]: https://github.com/powermock/powermock
+[assertDoesNotThrow]: https://docs.junit.org/5.9.0/api/org.junit.jupiter.api/org/junit/jupiter/api/Assertions.html#assertDoesNotThrow(org.junit.jupiter.api.function.Executable)
+[fail]: https://docs.junit.org/5.9.0/api/org.junit.jupiter.api/org/junit/jupiter/api/Assertions.html#fail()
