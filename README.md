@@ -125,7 +125,8 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [3.25] Keep the scope of try/catch as small as possible.
 
-[3.26] Strictly one test per feature file.
+[3.26] Strictly one test per feature file:
+  [jtcop](https://github.com/volodya-lombrozo/jtcop).
 
 [3.27] Don't use `verify()` from a mock framework.
 
