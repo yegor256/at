@@ -201,7 +201,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [6.14] Use Sanitizers.
 
-[6.15] Use Dynamic Analyzers.
+[6.15] Use [Dynamic Analysis] tools.
 
 [6.16] Employ Clone Detection tools.
 
@@ -209,9 +209,9 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [6.18] Use Multi-Browser Testing.
 
-[6.19] Use Cross-Browser Testing.
+[6.19] Use [Cross-Browser Testing].
 
-[6.20] Use GUI Testing.
+[6.20] Use [GUI Testing].
 
 [6.21] Use Cloud Code Analyzers.
 
@@ -242,3 +242,6 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 [Fuzzing]: https://en.wikipedia.org/wiki/Fuzzing
 [Property Based Testing]: https://en.wikipedia.org/wiki/Property_testing
 [Static Analysis]: https://en.wikipedia.org/wiki/Static_program_analysis
+[Dynamic Analysis]: https://en.wikipedia.org/wiki/Dynamic_program_analysis
+[Cross-Browser Testing]: https://en.wikipedia.org/wiki/Cross-browser_testing
+[GUI Testing]: https://en.wikipedia.org/wiki/Graphical_user_interface_testing
