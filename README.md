@@ -1,7 +1,8 @@
 <img src="https://www.yegor256.com/images/books/angry-tests/onion.svg" height="128px"/>
 
 The following principles may help you write better automated tests.
-They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.html) book.
+They are excerpts from the [Angry Tests] book.
+To get a more detailed explanation you may want to read the book.
 
 ## Chapter 2. Basics
 
@@ -266,6 +267,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 [6.28] Validate architecture at build time:
   [archunit](https://github.com/TNG/ArchUnit).
 
+[Angry Tests]: https://www.yegor256.com/angry-tests.html
 [code-free]: https://www.yegor256.com/2015/05/07/ctors-must-be-code-free.html
 [fake objects]: https://www.yegor256.com/2014/09/23/built-in-fake-objects.html
 [PowerMock]: https://github.com/powermock/powermock
