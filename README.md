@@ -63,7 +63,7 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [2.30] Aim for [one-statement] tests.
 
-[2.31] Use Hamcrest.
+[2.31] Use [Hamcrest].
 
 [2.32] Don't be discouraged from writing bad tests, they're better than nothing.
 
@@ -177,3 +177,4 @@ Feel free to contribute.
 [assertDoesNotThrow]: https://docs.junit.org/5.9.0/api/org.junit.jupiter.api/org/junit/jupiter/api/Assertions.html#assertDoesNotThrow(org.junit.jupiter.api.function.Executable)
 [fail]: https://docs.junit.org/5.9.0/api/org.junit.jupiter.api/org/junit/jupiter/api/Assertions.html#fail()
 [one-statement]: https://www.yegor256.com/2017/05/17/single-statement-unit-tests.html
+[Hamcrest]: https://hamcrest.org/
