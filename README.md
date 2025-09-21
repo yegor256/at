@@ -177,9 +177,9 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 
 [6.2] Employ Proberty-Based-Testing tools.
 
-[6.3] Use Fuzzing tools.
+[6.3] Use [Fuzzing] tools.
 
-[6.4] Use Mutation Testing.
+[6.4] Use [Mutation Testing].
 
 [6.5] Check files layout during the build.
 
@@ -238,3 +238,5 @@ They are excerpts from the [Angry Tests](https://www.yegor256.com/angry-tests.ht
 [Hamcrest]: https://hamcrest.org/
 [ephemeral]: https://en.wikipedia.org/wiki/Ephemeral_port
 [maybeslow]: https://github.com/yegor256/maybeslow
+[Mutation Testing]: https://en.wikipedia.org/wiki/Mutation_testing
+[Fuzzng]: https://en.wikipedia.org/wiki/Fuzzing
