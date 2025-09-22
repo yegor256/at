@@ -8,267 +8,267 @@ To get a more detailed explanation you may want to read the book.
 
 ## Chapter 2. Basics
 
-[2.1] Keep every test shorter than a dozen lines.
+<a name="2-1">[<a href="#2-1">2.1</a>]</a> Keep every test shorter than a dozen lines.
 
-[2.2] Assert only once per test.
+<a name="2-2">[<a href="#2-2">2.2</a>]</a> Assert only once per test.
 
-[2.3] Assert in every test.
+<a name="2-3">[<a href="#2-3">2.3</a>]</a> Assert in every test.
 
-[2.4] Finish every test with an assertion.
+<a name="2-4">[<a href="#2-4">2.4</a>]</a> Finish every test with an assertion.
 
-[2.5] Don't use [assertDoesNotThrow].
+<a name="2-5">[<a href="#2-5">2.5</a>]</a> Don't use [assertDoesNotThrow].
 
-[2.6] Don't fail explicitly using [fail].
+<a name="2-6">[<a href="#2-6">2.6</a>]</a> Don't fail explicitly using [fail].
 
-[2.7] Use irregular input values, instead of `"foo"`.
+<a name="2-7">[<a href="#2-7">2.7</a>]</a> Use irregular input values, instead of `"foo"`.
 
-[2.8] Use different inputs in every test, don't reuse them.
+<a name="2-8">[<a href="#2-8">2.8</a>]</a> Use different inputs in every test, don't reuse them.
 
-[2.9] Always write failure messages.
+<a name="2-9">[<a href="#2-9">2.9</a>]</a> Always write failure messages.
 
-[2.10] Don't share any data between tests; never use `setUp` and `tearDown`.
+<a name="2-10">[<a href="#2-10">2.10</a>]</a> Don't share any data between tests; never use `setUp` and `tearDown`.
 
-[2.11] Don't define constants (static literals) inside tests.
+<a name="2-11">[<a href="#2-11">2.11</a>]</a> Don't define constants (static literals) inside tests.
 
-[2.12] Don't inline constants; assign them to variables first.
+<a name="2-12">[<a href="#2-12">2.12</a>]</a> Don't inline constants; assign them to variables first.
 
-[2.13] Don't bypass object interfaces, especially not via Reflection.
+<a name="2-13">[<a href="#2-13">2.13</a>]</a> Don't bypass object interfaces, especially not via Reflection.
 
-[2.14] Name tests as full English sentences starting with a verb, e.g., `buildsHtmlPage`.
+<a name="2-14">[<a href="#2-14">2.14</a>]</a> Name tests as full English sentences starting with a verb, e.g., `buildsHtmlPage`.
 
-[2.15] Never write any comments inside or outside of test methods.
+<a name="2-15">[<a href="#2-15">2.15</a>]</a> Never write any comments inside or outside of test methods.
 
-[2.16] Don't assert on behavior not promised by the object's contract.
+<a name="2-16">[<a href="#2-16">2.16</a>]</a> Don't assert on behavior not promised by the object's contract.
 
-[2.17] Assert on the most vulnerable pain points.
+<a name="2-17">[<a href="#2-17">2.17</a>]</a> Assert on the most vulnerable pain points.
 
-[2.18] Don't test getters, setters, and similar primitive functionality.
+<a name="2-18">[<a href="#2-18">2.18</a>]</a> Don't test getters, setters, and similar primitive functionality.
 
-[2.19] Don't delete tests, disable them instead.
+<a name="2-19">[<a href="#2-19">2.19</a>]</a> Don't delete tests, disable them instead.
 
-[2.20] Never test private or protected object methods.
+<a name="2-20">[<a href="#2-20">2.20</a>]</a> Never test private or protected object methods.
 
-[2.21] Close resources after use, such as files and sockets.
+<a name="2-21">[<a href="#2-21">2.21</a>]</a> Close resources after use, such as files and sockets.
 
-[2.22] Don't write feature code that is only used in tests.
+<a name="2-22">[<a href="#2-22">2.22</a>]</a> Don't write feature code that is only used in tests.
 
-[2.23] Assert at every step while getting to the end of a use case.
+<a name="2-23">[<a href="#2-23">2.23</a>]</a> Assert at every step while getting to the end of a use case.
 
-[2.24] Don't assert on side effects, like logs.
+<a name="2-24">[<a href="#2-24">2.24</a>]</a> Don't assert on side effects, like logs.
 
-[2.25] Assert on all possible intermediate results.
+<a name="2-25">[<a href="#2-25">2.25</a>]</a> Assert on all possible intermediate results.
 
-[2.26] Don't test constructors — they are [code-free] anyway.
+<a name="2-26">[<a href="#2-26">2.26</a>]</a> Don't test constructors — they are [code-free] anyway.
 
-[2.27] Clean up before a test, not after it.
+<a name="2-27">[<a href="#2-27">2.27</a>]</a> Clean up before a test, not after it.
 
-[2.28] Don't use mock frameworks, build [fake objects] instead.
+<a name="2-28">[<a href="#2-28">2.28</a>]</a> Don't use mock frameworks, build [fake objects] instead.
 
-[2.29] Don't forgive incorrect behavior, disable the test instead.
+<a name="2-29">[<a href="#2-29">2.29</a>]</a> Don't forgive incorrect behavior, disable the test instead.
 
-[2.30] Aim for [one-statement] tests.
+<a name="2-30">[<a href="#2-30">2.30</a>]</a> Aim for [one-statement] tests.
 
-[2.31] Use [Hamcrest].
+<a name="2-31">[<a href="#2-31">2.31</a>]</a> Use [Hamcrest].
 
-[2.32] Don't be discouraged from writing bad tests; they're better than nothing.
+<a name="2-32">[<a href="#2-32">2.32</a>]</a> Don't be discouraged from writing bad tests; they're better than nothing.
 
-[2.33] Every time you change the code, add more tests.
+<a name="2-33">[<a href="#2-33">2.33</a>]</a> Every time you change the code, add more tests.
 
 ## Chapter 3. Advanced
 
-[3.1] Classify tests as "fast" (50ms each) and "deep" (integrating everything).
+<a name="3-1">[<a href="#3-1">3.1</a>]</a> Classify tests as "fast" (50ms each) and "deep" (integrating everything).
 
-[3.2] Make tests flaky and unstable, then expect bugs to be reported and fixed.
+<a name="3-2">[<a href="#3-2">3.2</a>]</a> Make tests flaky and unstable, then expect bugs to be reported and fixed.
 
-[3.3] Create custom matchers and reuse them in assert statements.
+<a name="3-3">[<a href="#3-3">3.3</a>]</a> Create custom matchers and reuse them in assert statements.
 
-[3.4] Reproduce bugs with the minimum possible scaffolding.
+<a name="3-4">[<a href="#3-4">3.4</a>]</a> Reproduce bugs with the minimum possible scaffolding.
 
-[3.5] Tests must reproduce particular bugs, not successful usage scenarios.
+<a name="3-5">[<a href="#3-5">3.5</a>]</a> Tests must reproduce particular bugs, not successful usage scenarios.
 
-[3.6] Don't assert on unimportant details, don't be pedantic without reason.
+<a name="3-6">[<a href="#3-6">3.6</a>]</a> Don't assert on unimportant details, don't be pedantic without reason.
 
-[3.7] Invent a DSL and write test stories using it.
+<a name="3-7">[<a href="#3-7">3.7</a>]</a> Invent a DSL and write test stories using it.
 
-[3.8] Use randomizers to generate test data.
+<a name="3-8">[<a href="#3-8">3.8</a>]</a> Use randomizers to generate test data.
 
-[3.9] Don't help your tests; create the most inconvenient environment for them.
+<a name="3-9">[<a href="#3-9">3.9</a>]</a> Don't help your tests; create the most inconvenient environment for them.
 
-[3.10] Don't keep temporary files next to the source code; use a temporary directory.
+<a name="3-10">[<a href="#3-10">3.10</a>]</a> Don't keep temporary files next to the source code; use a temporary directory.
 
-[3.11] Don't test abstract classes.
+<a name="3-11">[<a href="#3-11">3.11</a>]</a> Don't test abstract classes.
 
-[3.12] Don't let tests log anything; keep the log empty.
+<a name="3-12">[<a href="#3-12">3.12</a>]</a> Don't let tests log anything; keep the log empty.
 
-[3.13] Parameterize tests.
+<a name="3-13">[<a href="#3-13">3.13</a>]</a> Parameterize tests.
 
-[3.14] Stop tests on timeout; don't let them run forever.
+<a name="3-14">[<a href="#3-14">3.14</a>]</a> Stop tests on timeout; don't let them run forever.
 
-[3.15] Don't sleep for an arbitrary number of seconds; instead, wait for an event.
+<a name="3-15">[<a href="#3-15">3.15</a>]</a> Don't sleep for an arbitrary number of seconds; instead, wait for an event.
 
-[3.16] When it's necessary to simulate a hang, sleep for a billion seconds.
+<a name="3-16">[<a href="#3-16">3.16</a>]</a> When it's necessary to simulate a hang, sleep for a billion seconds.
 
-[3.17] Let different tests test the same part of the feature code.
+<a name="3-17">[<a href="#3-17">3.17</a>]</a> Let different tests test the same part of the feature code.
 
-[3.18] Test whether your objects are [thread-safe]:
+<a name="3-18">[<a href="#3-18">3.18</a>]</a> Test whether your objects are [thread-safe]:
   [in Java](https://www.yegor256.com/2018/03/27/how-to-test-thread-safety.html),
   [in Ruby](https://www.yegor256.com/2018/11/06/ruby-threads.html).
 
-[3.19] Let tests retry when the behavior they are testing is flaky.
+<a name="3-19">[<a href="#3-19">3.19</a>]</a> Let tests retry when the behavior they are testing is flaky.
 
-[3.20] Use tags to classify tests.
+<a name="3-20">[<a href="#3-20">3.20</a>]</a> Use tags to classify tests.
 
-[3.21] Let your testing framework repeat some tests to increase the chance of hitting the bug.
+<a name="3-21">[<a href="#3-21">3.21</a>]</a> Let your testing framework repeat some tests to increase the chance of hitting the bug.
 
-[3.22] In tests for thread-safety, utilize all available CPUs.
+<a name="3-22">[<a href="#3-22">3.22</a>]</a> In tests for thread-safety, utilize all available CPUs.
 
-[3.23] Run all tests with no Internet connection; they must pass.
+<a name="3-23">[<a href="#3-23">3.23</a>]</a> Run all tests with no Internet connection; they must pass.
 
-[3.24] Don't assert on the details of errors.
+<a name="3-24">[<a href="#3-24">3.24</a>]</a> Don't assert on the details of errors.
 
-[3.25] Keep the scope of try/catch as small as possible.
+<a name="3-25">[<a href="#3-25">3.25</a>]</a> Keep the scope of try/catch as small as possible.
 
-[3.26] Strictly one test per feature file:
+<a name="3-26">[<a href="#3-26">3.26</a>]</a> Strictly one test per feature file:
   [jtcop](https://github.com/volodya-lombrozo/jtcop).
 
-[3.27] Don't use `verify()` from a mock framework.
+<a name="3-27">[<a href="#3-27">3.27</a>]</a> Don't use `verify()` from a mock framework.
 
-[3.28] Don't use [PowerMock] or similar frameworks.
+<a name="3-28">[<a href="#3-28">3.28</a>]</a> Don't use [PowerMock] or similar frameworks.
 
-[3.29] In tests, don't instantiate objects or call their methods with default arguments.
+<a name="3-29">[<a href="#3-29">3.29</a>]</a> In tests, don't instantiate objects or call their methods with default arguments.
 
-[3.30] Don't abbreviate; use `curl --silent` instead of `curl -s`.
+<a name="3-30">[<a href="#3-30">3.30</a>]</a> Don't abbreviate; use `curl --silent` instead of `curl -s`.
 
-[3.31] Don't let feature objects do the job of tests — verify inputs and state.
+<a name="3-31">[<a href="#3-31">3.31</a>]</a> Don't let feature objects do the job of tests — verify inputs and state.
 
-[3.32] Use decorating invariants to catch improper use of objects during testing.
+<a name="3-32">[<a href="#3-32">3.32</a>]</a> Use decorating invariants to catch improper use of objects during testing.
 
-[3.33] Run tests in parallel threads:
+<a name="3-33">[<a href="#3-33">3.33</a>]</a> Run tests in parallel threads:
   [threads](https://github.com/yegor256/threads).
 
-[3.34] Every fast test must take less than 100 milliseconds.
+<a name="3-34">[<a href="#3-34">3.34</a>]</a> Every fast test must take less than 100 milliseconds.
 
-[3.35] Don't mock the file system.
+<a name="3-35">[<a href="#3-35">3.35</a>]</a> Don't mock the file system.
 
-[3.36] Make the place with temporary files accessible after the end of the test suite:
+<a name="3-36">[<a href="#3-36">3.36</a>]</a> Make the place with temporary files accessible after the end of the test suite:
   [mktmp](https://github.com/yegor256/mktmp).
 
-[3.37] Don't assert on the content of logs generated by feature code during tests.
+<a name="3-37">[<a href="#3-37">3.37</a>]</a> Don't assert on the content of logs generated by feature code during tests.
 
-[3.38] Use [ephemeral] TCP ports.
+<a name="3-38">[<a href="#3-38">3.38</a>]</a> Use [ephemeral] TCP ports.
 
-[3.39] Don't use inheritance to reuse test tools.
+<a name="3-39">[<a href="#3-39">3.39</a>]</a> Don't use inheritance to reuse test tools.
 
-[3.40] Don't be scared of long test classes — they are OK.
+<a name="3-40">[<a href="#3-40">3.40</a>]</a> Don't be scared of long test classes — they are OK.
 
-[3.41] Don't fix feature code in response to a flaky test failure.
+<a name="3-41">[<a href="#3-41">3.41</a>]</a> Don't fix feature code in response to a flaky test failure.
 
-[3.42] Use [maybeslow] or a similar library to diagnose long-running tests.
+<a name="3-42">[<a href="#3-42">3.42</a>]</a> Use [maybeslow] or a similar library to diagnose long-running tests.
 
-[3.43] Kill long-running tests on timeout.
+<a name="3-43">[<a href="#3-43">3.43</a>]</a> Kill long-running tests on timeout.
 
-[3.44] Inline fixtures instead of keeping them in fixture files.
+<a name="3-44">[<a href="#3-44">3.44</a>]</a> Inline fixtures instead of keeping them in fixture files.
 
-[3.45] Don't keep large fixtures in static files; let tests generate them.
+<a name="3-45">[<a href="#3-45">3.45</a>]</a> Don't keep large fixtures in static files; let tests generate them.
 
-[3.46] Create fixture objects that generate large fixtures at runtime.
+<a name="3-46">[<a href="#3-46">3.46</a>]</a> Create fixture objects that generate large fixtures at runtime.
 
-[3.47] Keep reference fixtures as static files in the repository.
+<a name="3-47">[<a href="#3-47">3.47</a>]</a> Keep reference fixtures as static files in the repository.
 
-[3.48] Code duplication in tests is the last problem to fix.
+<a name="3-48">[<a href="#3-48">3.48</a>]</a> Code duplication in tests is the last problem to fix.
 
-[3.49] Extract test libraries.
+<a name="3-49">[<a href="#3-49">3.49</a>]</a> Extract test libraries.
 
 ## Chapter 6. Fancy Tests
 
-[6.1] Test for grammar mistakes and typos:
+<a name="6-1">[<a href="#6-1">6.1</a>]</a> Test for grammar mistakes and typos:
   [languagetool](https://github.com/languagetool-org/languagetool).
   [typos-action](https://github.com/marketplace/actions/typos-action).
 
-[6.2] Employ [Property Based Testing] tools:
+<a name="6-2">[<a href="#6-2">6.2</a>]</a> Employ [Property Based Testing] tools:
   [jqwik](https://github.com/jqwik-team/jqwik),
   [quickcheck](https://github.com/nick8325/quickcheck).
 
-[6.3] Use [Fuzzing] tools:
+<a name="6-3">[<a href="#6-3">6.3</a>]</a> Use [Fuzzing] tools:
   [jqf](https://github.com/rohanpadhye/jqf),
   [oss-fuzz](https://github.com/google/oss-fuzz),
   [syzkaller](https://github.com/google/syzkaller).
 
-[6.4] Use [Mutation Testing]:
+<a name="6-4">[<a href="#6-4">6.4</a>]</a> Use [Mutation Testing]:
   [pitest](https://github.com/hcoles/pitest).
 
-[6.5] Check files layout during the build.
+<a name="6-5">[<a href="#6-5">6.5</a>]</a> Check files layout during the build.
 
-[6.6] Use Load Tests:
+<a name="6-6">[<a href="#6-6">6.6</a>]</a> Use Load Tests:
   [jmeter](https://github.com/apache/jmeter),
   [locust](https://github.com/locustio/locust).
 
-[6.7] Use Performance Tests:
+<a name="6-7">[<a href="#6-7">6.7</a>]</a> Use Performance Tests:
   [jmh](https://github.com/openjdk/jmh).
 
-[6.8] Benchmark new vs. previous builds:
+<a name="6-8">[<a href="#6-8">6.8</a>]</a> Benchmark new vs. previous builds:
   [jmh-benchmark-action](https://github.com/volodya-lombrozo/jmh-benchmark-action).
 
-[6.9] Use Linters:
+<a name="6-9">[<a href="#6-9">6.9</a>]</a> Use Linters:
   [eslint](https://github.com/eslint/eslint),
   [rust-clippy](https://github.com/rust-lang/rust-clippy),
   [checkstyle](https://github.com/checkstyle/checkstyle),
   [pylint](https://github.com/pylint-dev/pylint),
   [ruff](https://github.com/astral-sh/ruff).
 
-[6.10] Use [Static Analysis] at build time:
+<a name="6-10">[<a href="#6-10">6.10</a>]</a> Use [Static Analysis] at build time:
   [clang-tidy](https://clang.llvm.org/extra/clang-tidy),
   [spotbugs](https://github.com/spotbugs/spotbugs),
   [infer](https://github.com/facebook/infer).
 
-[6.11] Collect source code metrics and fail when thresholds are exceeded.
+<a name="6-11">[<a href="#6-11">6.11</a>]</a> Collect source code metrics and fail when thresholds are exceeded.
 
-[6.12] Test SQL queries:
+<a name="6-12">[<a href="#6-12">6.12</a>]</a> Test SQL queries:
   [pgtap](https://github.com/theory/pgtap).
 
-[6.13] Detect slowest SQL queries:
+<a name="6-13">[<a href="#6-13">6.13</a>]</a> Detect slowest SQL queries:
   [dexter](https://github.com/ankane/dexter).
 
-[6.14] Use Sanitizers.
+<a name="6-14">[<a href="#6-14">6.14</a>]</a> Use Sanitizers.
 
-[6.15] Use [Dynamic Analysis] tools.
+<a name="6-15">[<a href="#6-15">6.15</a>]</a> Use [Dynamic Analysis] tools.
 
-[6.16] Employ Clone Detection tools:
+<a name="6-16">[<a href="#6-16">6.16</a>]</a> Employ Clone Detection tools:
   [simian](https://simian.quandarypeak.com/).
 
-[6.17] Use In-Browser Testing:
+<a name="6-17">[<a href="#6-17">6.17</a>]</a> Use In-Browser Testing:
   [selenium](https://github.com/SeleniumHQ/selenium),
   [playwright](https://github.com/microsoft/playwright).
 
-[6.18] Use Multi-Browser Testing:
+<a name="6-18">[<a href="#6-18">6.18</a>]</a> Use Multi-Browser Testing:
   [saucelabs](https://docs.saucelabs.com/secure-connections).
 
-[6.19] Use [Cross-Browser Testing].
+<a name="6-19">[<a href="#6-19">6.19</a>]</a> Use [Cross-Browser Testing].
 
-[6.20] Use [GUI Testing].
+<a name="6-20">[<a href="#6-20">6.20</a>]</a> Use [GUI Testing].
 
-[6.21] Use Cloud Code Analyzers:
+<a name="6-21">[<a href="#6-21">6.21</a>]</a> Use Cloud Code Analyzers:
   [SonarQube](https://www.sonarsource.com/products/sonarqube/),
   [Snyk](https://snyk.io/),
   [Codacy](https://www.codacy.com/).
 
-[6.22] Create Live Tests that verify production-ready configurations.
+<a name="6-22">[<a href="#6-22">6.22</a>]</a> Create Live Tests that verify production-ready configurations.
 
-[6.23] Use Health Checks after deployment.
+<a name="6-23">[<a href="#6-23">6.23</a>]</a> Use Health Checks after deployment.
 
-[6.24] Generate tests at build time:
+<a name="6-24">[<a href="#6-24">6.24</a>]</a> Generate tests at build time:
   [randoop](https://github.com/randoop/randoop).
 
-[6.25] Employ Security Tests:
+<a name="6-25">[<a href="#6-25">6.25</a>]</a> Employ Security Tests:
   [zaproxy](https://github.com/zaproxy/zaproxy).
 
-[6.26] Do License Compliance Testing:
+<a name="6-26">[<a href="#6-26">6.26</a>]</a> Do License Compliance Testing:
   [ort](https://github.com/oss-review-toolkit/ort),
   [reuse-action](https://github.com/fsfe/reuse-action).
 
-[6.27] Detect redundant tests.
+<a name="6-27">[<a href="#6-27">6.27</a>]</a> Detect redundant tests.
 
-[6.28] Validate architecture at build time:
+<a name="6-28">[<a href="#6-28">6.28</a>]</a> Validate architecture at build time:
   [archunit](https://github.com/TNG/ArchUnit).
 
 [Angry Tests]: https://www.yegor256.com/angry-tests.html
